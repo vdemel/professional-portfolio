@@ -17,13 +17,13 @@ body {
 
 /* HEADER / NAV BAR STYLES START */ 
 
-header {
+.main-header {
     padding: 20px 35px;
-    background-color: var(--backround-color);
+    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    background-image: url("../images/hero.jpg");
+    background-image: url("../assets/images/hero.jpg");
     background-size: cover;
     background-position: 40%;
 }
@@ -44,8 +44,20 @@ header a {
     color:var(--primary-color);
 }
 
+.project {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
 
-.hero-image {
+.project header {
+    color:black
+}
+
+
+.photo {
     max-width: fit-content;
     max-height: fit-content;
 }
