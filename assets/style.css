@@ -1,0 +1,51 @@
+:root {
+    --backround-color:blue;
+    --primary-color:white;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLES START */ 
+
+header {
+    padding: 20px 35px;
+    background-color: var(--backround-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: 40%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+header a {
+    color:var(--primary-color);
+}
+
+
+.hero-image {
+    max-width: fit-content;
+    max-height: fit-content;
+}
