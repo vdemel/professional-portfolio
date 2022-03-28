@@ -11,7 +11,8 @@
 }
 
 body {
-    color:white;
+    color:black;
+    background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,7 +20,6 @@ body {
 
 .hero {
     padding: 20px 35px;
-    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
@@ -28,27 +28,58 @@ body {
     background-position: 40%;
 }
 
+.hero h2 {
+    position: absolute;
+    bottom: 550px;
+    right: 0px;
+}
+
+header {
+    background-color: darkgray;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     list-style: none;
 }
 
 header nav ul li a {
     padding: 10px 15px;
-    color: red;
+    color: black;
 }
 
 header h1 {
     padding: 10px 15px;
-    color: brown;
+    color: black;
 }
 
 header a {
     color:var(--primary-color);
 }
+
+/*ABOUT ME SECTION STYLES START */
+
+.about-me {
+    color:black;
+}
+
+.about-me h3 {
+    text-align: right;
+}
+
+.about-me h2 {
+    border-style: solid;
+    border-width: 0 10px 0 0;
+    border-color: black;
+    position: relative;
+}
+
 
 /* MAIN SECTION STYLES START */
 
@@ -59,12 +90,22 @@ main{
     flex-wrap: wrap;
 }
 
+main h1 {
+    color:black;
+    padding-right: 50px;
+}
+
 .project {
     flex: 1 0 0;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
+    margin: 20px;
+}
+
+.project h1 {
+    color: black;
 }
 
 .project header {
@@ -84,16 +125,17 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    background-color: darkgrey;
 }
 
 footer div {
-    color:red;
+    color: black;
     line-height: 1.5;
     text-align: right;
 }
 
 footer h2 {
-    color:green;
+    color:black;
     border-right: 20px;
     border-color: purple;
 }
