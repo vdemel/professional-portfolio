@@ -105,8 +105,14 @@ header a {
 .work {
     margin: 20px;
     flex: 1;
-    background: turquoise;
+    background:lightskyblue;
     color: blue;
+}
+
+.projects h1 {
+    border-style: solid;
+    border-width: 0 3px 0 0;
+    border-color: darkblue;
 }
 
 .project-description h3 {
@@ -128,16 +134,10 @@ header a {
 footer {
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     background-color: darkgrey;
-    justify-content: center;
-}
-
-footer > * {
-    flex: 1;
-    margin: 15px;
 }
 
 footer div {
