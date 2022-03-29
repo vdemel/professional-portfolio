@@ -10,7 +10,7 @@
 }
 
 body {
-    color:black;
+    color: darkblue;
     background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,12 +52,12 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    color: black;
+    color: darkblue;
 }
 
 header h1 {
     padding: 10px 15px;
-    color: black;
+    color: darkblue;
 }
 
 header a {
@@ -67,20 +67,20 @@ header a {
 /*ABOUT ME SECTION STYLES START */
 
 .about-me {
-    color:black;
+    color: darkblue;
     display: flex;
     flex-wrap: wrap;
 }
 
 .about-me h3 {
-    text-align: right;
-    width: 25%;
+    margin-left: 130px;
+    width: 75%;
 }
 
 .about-me h2 {
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: black;
+    border-color: darkblue;
     position: relative;
     margin-right: 1800px;
     text-align: right;
@@ -90,7 +90,7 @@ header a {
 
 /* PROJECTS SECTION STYLES START */
 
-.work {
+.project {
     width: 100%;
     margin: 0 auto;
     justify-content: space-around;
@@ -101,6 +101,26 @@ header a {
 .flex-row {
     display: flex;
   }
+
+.work {
+    margin: 20px;
+    flex: 1;
+    background: turquoise;
+    color: blue;
+}
+
+.project-description h3 {
+    font-size: 28px;
+}
+
+.project-description {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    width: 100%;
+}
 
 /* PROJECTS SECTION STYLES END */
 
@@ -121,7 +141,7 @@ footer > * {
 }
 
 footer div {
-    color: black;
+    color: darkblue;
     line-height: 2.5;
     text-align: right;
     font-weight: bold;
@@ -129,10 +149,10 @@ footer div {
 }
 
 footer h2 {
-    color:black;
+    color:darkblue;
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: black;
+    border-color: darkblue;
     position: relative;
     margin-right: 1800px;
     text-align: right;
