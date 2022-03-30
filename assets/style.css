@@ -19,7 +19,7 @@ body {
 
 .hero {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
     background-image: url("../assets/images/hero.jpg");
@@ -27,10 +27,11 @@ body {
     background-position: 40%;
 }
 
-.hero h2 {
-    position: absolute;
-    bottom: 550px;
-    right: 0px;
+.hero-h2 {
+    /* position: absolute; */
+    /* bottom: 550px;
+    right: 0px; */
+    margin-top: 150px;
 }
 
 header {
@@ -70,28 +71,33 @@ header a {
     color: darkblue;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .about-me h3 {
-    margin-left: 130px;
-    width: 75%;
+    /*margin-left: 130px;
+    width: 75%;*/
+    flex: 0 0 80%;
+    padding-left: 20px;
 }
 
 .about-me h2 {
     border-style: solid;
     border-width: 0 3px 0 0;
     border-color: darkblue;
-    position: relative;
-    margin-right: 1800px;
-    text-align: right;
+    /* position: relative;
+    margin-right: 1800px; */
+    /* text-align: right; */
     padding: 5px;
-    width: 15%;
+    /* width: 15%; */
 }
 
 /* PROJECTS SECTION STYLES START */
-
+.first-project {
+    width: 80%;
+}
 .project {
-    width: 100%;
+    /*width: 100%;*/
     margin: 0 auto;
     justify-content: space-around;
     display: flex;
