@@ -28,10 +28,7 @@ body {
 }
 
 .hero-h2 {
-    /* position: absolute; */
-    /* bottom: 550px;
-    right: 0px; */
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 header {
@@ -73,25 +70,20 @@ header a {
     flex-wrap: wrap;
     flex-direction: row;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .about-me h3 {
-    /*margin-left: 130px;
-    width: 75%;*/
     flex: 0 0 80%;
-    padding-left: 150px;
+    padding-left: 75px;
 }
 
 .about-me h2 {
     border-style: solid;
     border-width: 0 3px 0 0;
     border-color: darkblue;
-    /* position: relative;
-    margin-right: 1800px; */
-    /* text-align: right; */
     padding: 5px;
     padding-right: 80px;
-    /* width: 15%; */
 }
 
 /* PROJECTS SECTION STYLES START */
@@ -99,8 +91,8 @@ header a {
     width: 80%;
     margin-left: 250px;
 }
+
 .project {
-    /*width: 100%;*/
     margin: 0 auto;
     justify-content: space-around;
     display: flex;
@@ -165,7 +157,6 @@ footer div {
     color: darkblue;
     line-height: 2.5;
     font-weight: bold;
-    /* flex: 0 0 80%; */
     padding-left: 20px;
     justify-content: right;
 }
