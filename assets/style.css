@@ -72,13 +72,14 @@ header a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding-bottom: 50px;
 }
 
 .about-me h3 {
     /*margin-left: 130px;
     width: 75%;*/
     flex: 0 0 80%;
-    padding-left: 20px;
+    padding-left: 150px;
 }
 
 .about-me h2 {
@@ -89,12 +90,14 @@ header a {
     margin-right: 1800px; */
     /* text-align: right; */
     padding: 5px;
+    padding-right: 80px;
     /* width: 15%; */
 }
 
 /* PROJECTS SECTION STYLES START */
 .first-project {
     width: 80%;
+    margin-left: 250px;
 }
 .project {
     /*width: 100%;*/
@@ -106,6 +109,10 @@ header a {
 
 .flex-row {
     display: flex;
+    border-style: solid;
+    border-width: 0 3px 0 0;
+    border-color: darkblue;
+    margin-right: 1705px;
   }
 
 .work {
@@ -113,6 +120,14 @@ header a {
     flex: 1;
     background:lightskyblue;
     color: blue;
+}
+
+.work h1 {
+    border-style: solid;
+    border-width: 0 3px 0 0;
+    border-color: darkblue;
+    padding: 5px;
+    padding-right: 80px;
 }
 
 .projects h1 {
