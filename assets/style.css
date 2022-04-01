@@ -1,6 +1,5 @@
 :root {
-    --backround-color:blue;
-    --primary-color:white;
+    --primary-text-color: darkblue; 
 }
 
 * {
@@ -10,26 +9,12 @@
 }
 
 body {
-    color: darkblue;
+    color: var(--primary-text-color);
     background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER / NAV BAR STYLES START */ 
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px 35px;
-    background-image: url("../assets/images/nepal-2184940__340.webp");
-    background-size: cover;
-    background-position: 40%;
-}
-
-.hero-h2 {
-    margin-top: 170px;
-}
 
 header {
     background-color: darkgray;
@@ -50,22 +35,38 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    color: darkblue;
+    color: var(--primary-text-color);
 }
 
 header h1 {
     padding: 10px 15px;
-    color: darkblue;
+    color: var(--primary-text-color);
 }
 
 header a {
     color:var(--primary-color);
 }
 
+/*HERO STYLES START */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-image: url("../assets/images/nepal-2184940__340.webp");
+    background-size: cover;
+    background-position: 40%;
+}
+
+.hero-h2 {
+    margin-top: 170px;
+}
+
 /*ABOUT ME SECTION STYLES START */
 
 .about-me {
-    color: darkblue;
+    color: var(--primary-text-color);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -81,12 +82,13 @@ header a {
 .about-me h2 {
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: darkblue;
+    border-color: var(--primary-text-color);
     padding: 5px;
     padding-right: 80px;
 }
 
 /* PROJECTS SECTION STYLES START */
+
 .first-project {
     width: 80%;
     margin-left: 250px;
@@ -103,7 +105,7 @@ header a {
     display: flex;
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: darkblue;
+    border-color: var(--primary-text-color);
     margin-right: 1705px;
   }
 
@@ -111,13 +113,13 @@ header a {
     margin: 20px;
     flex: 1;
     background:lightskyblue;
-    color: blue;
+    color: var(--primary-text-color);
 }
 
 .work h1 {
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: darkblue;
+    border-color: var(--primary-text-color);
     padding: 5px;
     padding-right: 80px;
 }
@@ -125,7 +127,7 @@ header a {
 .projects h1 {
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: darkblue;
+    border-color: var(--primary-text-color);
 }
 
 .project-description h3 {
@@ -141,8 +143,6 @@ header a {
     width: 100%;
 }
 
-/* PROJECTS SECTION STYLES END */
-
 /* FOOTER STYLES START */
 footer {
     padding: 40px 35px;
@@ -154,7 +154,7 @@ footer {
 }
 
 footer div {
-    color: darkblue;
+    color: var(--primary-text-color);
     line-height: 2.5;
     font-weight: bold;
     padding-left: 20px;
@@ -162,11 +162,65 @@ footer div {
 }
 
 footer h2 {
-    color:darkblue;
+    color:var(--primary-text-color);
     border-style: solid;
     border-width: 0 3px 0 0;
-    border-color: darkblue;
+    border-color: var(--primary-text-color);
     padding: 5px;
 }
 
-/* FOOTER STYLES END */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
+ }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+    .work {
+      flex: 1 100%;
+      text-align: center;
+    }
+  
+ }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+
+    
+  }
