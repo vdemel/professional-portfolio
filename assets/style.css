@@ -82,6 +82,7 @@ header a {
 .about-me h2 {
     padding: 5px;
     padding-right: 80px;
+    margin-left: 20px;
 }
 
 /* PROJECTS SECTION STYLES START */
@@ -103,16 +104,15 @@ header a {
     margin-right: 1705px;
   }
 
+.flex-row h1 {
+    margin-left: 70px;
+}  
+
 .work {
     margin: 20px;
     flex: 1;
     background:lightskyblue;
     color: var(--primary-text-color);
-}
-
-.work h1 {
-    padding: 5px;
-    padding-right: 80px;
 }
 
 .project-description h3 {
